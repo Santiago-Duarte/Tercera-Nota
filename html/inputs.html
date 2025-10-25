@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inputs</title>
+</head>
+<body>
+    <h1>Clase de inputs</h1>
+    <ol>
+        <p>Texto con un maximo de 15 caracteres</p>
+        <input type="text" name="username" maxlength="15" placeholder="Enter username"></body>
+
+        <p>Seleccionar genero</p>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Female</label>
+
+        <p>Checkbox</p>
+        <input type="checkbox" name="interest" value="coding" id="coding">
+        <label for="coding">Coding</label>
+
+        <p>Menu desplegable: </p>
+        <select name="country">
+        <option value="usa">United States</option>
+        <option value="canada">Canada</option>
+        <option value="colombia">Colombia</option>
+        </select>
+
+        <p>Boton enviar: </p>
+        <input type="submit" value="Submit Form">
+        <button type="submit">Boton de enviar</button>
+
+        <p>Boton resetear: </p>
+        <form action="/submit-form" method="post">
+        <input type="email" name="email" required />
+        <input type="number" name="age" min="18" max="100" />
+        <button type="submit">Submit Form</button>
+        <input type="reset" value="Reset Form">
+        </form>
+
+        <p>Buscar carpeta</p>
+        <input type="file" name="document">
+
+        <p>Fecha de nacimiento</p>
+        <input type="date" name="birthday">
+        
+        
+    </ol>
+
+</html>
